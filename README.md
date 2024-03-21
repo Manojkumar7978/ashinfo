@@ -8,10 +8,10 @@
 - There is also a footer section to know more about the company.
 
 ## Deployed link
-- 
+- https://ashinfo.vercel.app/
 
 ## Demo
-- 
+- https://vimeo.com/925761320/ef3fdd69ca?share=copy 
 
 ## Techstacks
 - React
@@ -23,5 +23,5 @@
 ## setup project
 - git clone https://github.com/Manojkumar7978/ashinfo.git
 - cd ashinfo
+- npm i
 - npm start
-    
