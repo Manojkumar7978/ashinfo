@@ -8,15 +8,15 @@ export default function Toprated() {
         <>
        <Flex justifyContent={'center'}
        flexWrap={'wrap'}
-       position={'relative'}
        gap={10} mb={20}>
         {
             toprated.map((el,ind)=>{
-                return  <Flex key={el.title} h={'300px'} 
+                return  <Flex key={ind} h={'300px'} 
                 borderRadius={10}
                 bg={'gray.100'}
                 boxShadow={'rgba(149, 157, 165, 0.2) 0px 8px 24px;'}
                 p={1}
+                position={'relative'}
                 >
                 <Box maxW={'170px'} >
                     <Img src={el.img} w={'100%'} h={'100%'} objectFit={'cover'} />

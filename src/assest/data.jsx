@@ -81,3 +81,12 @@ export let toprated=[
         bath:2,
     }
 ]
+
+export let footer=[
+    "About us",
+    "Contact us",
+    "Pricing",
+    "Terms & Condition",
+    "Report a Problem",
+    "Private Policy"
+]

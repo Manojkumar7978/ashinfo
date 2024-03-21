@@ -48,6 +48,7 @@ export default function Headers() {
                         {
                             menu.map((el, ind) => {
                                 return <chakra.li
+                                key={el}
                                     listStyleType={'none'}
                                 ><Text
                                     cursor={'pointer'}

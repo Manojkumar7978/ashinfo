@@ -9,7 +9,7 @@ export default function Propertycard({properties}) {
             justifyContent={'center'}>
                 {
                     properties.map((el,ind)=>{
-                        return <Box w={'320px'} overflow={'hidden'} 
+                        return <Box w={'320px'} overflow={'hidden'} key={ind}
                                 boxShadow={'rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px'}
                                 cursor={'pointer'}
                                 // border={'2px solid gray'}

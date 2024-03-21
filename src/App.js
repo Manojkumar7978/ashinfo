@@ -7,7 +7,7 @@ import Footer from './components/footer.jsx';
 
 function App() {
   return (
-    <Box maxW={'1531px'} m={'auto'} >
+    <Box maxW={'1531px'} m={'auto'} p={[2,0,0]} >
       {/* header section  */}
       <Headers/>
       <Content/>
