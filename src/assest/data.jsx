@@ -57,11 +57,27 @@ export let designer=[
 
 export let toprated=[
     {
-        img:"",
-        title:"",
-        builder:"",
-        address:"",
+        img:"https://i.pinimg.com/736x/a7/35/59/a735592d57e99f05ddd73bc8dab44710.jpg",
+        title:"Mapkson Gardenia",
+        builder:"Mapkson Builder",
+        address:"Greater Kailash, Delhi",
         bed:2,
         bath:1,
+    },
+    {
+        img:"https://images.unsplash.com/photo-1496945589647-8784b8d04934?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        title:"Mapkson Gardenia",
+        builder:"Mapkson Builder",
+        address:"Greater Kailash, Delhi",
+        bed:3,
+        bath:1,
+    },
+    {
+        img:"https://media.istockphoto.com/id/173632306/photo/facade-of-old-house-in-amsterdam.webp?b=1&s=170667a&w=0&k=20&c=Vk8Bg9aWBn2LQtP4YPkPLHfJC4x-DCtgf6tcdJF0M3U=",
+        title:"Mapkson Gardenia",
+        builder:"Mapkson Builder",
+        address:"Greater Kailash, Delhi",
+        bed:3,
+        bath:2,
     }
 ]

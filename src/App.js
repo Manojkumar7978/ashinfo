@@ -3,6 +3,7 @@ import './App.css';
 import { Box, Img } from '@chakra-ui/react';
 import Headers from './components/headers.jsx';
 import Content from './components/content.jsx';
+import Footer from './components/footer.jsx';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       {/* header section  */}
       <Headers/>
       <Content/>
+      <Footer/>
     </Box>
   );
 }
