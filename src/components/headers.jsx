@@ -9,15 +9,7 @@ import logo from '../assest/logo.png'
 import { FaRegUserCircle } from "react-icons/fa";
 import { IoChevronDown } from "react-icons/io5";
 import { GiHamburgerMenu } from "react-icons/gi";
-
-let menu=[
-    'Home',
-    'Properties',
-    'Designs',
-    'Search',
-    'About us',
-    'Contact us'
-]
+import {menu} from '../assest/data.jsx'
 
 export default function Headers() {
   return (
@@ -42,14 +34,14 @@ export default function Headers() {
     >
         <Flex flexDir={'column'} alignItems={'center'} justifyContent={'center'}>
             <Img src={logo} w={[5,5,10]} background={'transparent'}/>
-            <Heading size={['sm','md','lg']} color={'green'} p={0} m={0}>Trophy Nig.</Heading>
+            <Heading size={['sm','md','lg']} color={'green.400'} p={0} m={0}>Trophy Nig.</Heading>
             <Text fontSize={['x-small','x-small','x-small']}
              fontWeight={'500'} textTransform={'uppercase'} p={0} m={0}>Property Limited</Text>
         </Flex>
         <Flex gap={10}
         flexWrap={'wrap'}
         display={['none','none','flex']}
-        color={'green'} fontWeight={'700'} alignItems={'center'}>
+        color={'green.400'} fontWeight={'700'} alignItems={'center'}>
             {
                 menu.map((el,ind)=>{
                     return  <chakra.li
